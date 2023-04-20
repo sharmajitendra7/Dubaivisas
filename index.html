@@ -317,17 +317,17 @@
     </div>
     <!-- footer-end -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      $(".menuicon").click(function () {
+        $('.modal-mobile').show('slide, 500, right');
+        $('.overlay').show('slide, 500, right');
+      });
+    });
+    $(".close").click(function () {
+        $('.modal-mobile').hide('slide, 500, right');
+        $('.overlay').hide('slide, 500, right');
+      });
+  </script>
   </body>
-  <script>
-  $(document).ready(function () {
-    $(".menuicon").click(function () {
-      $('.modal-mobile').show('slide, 500, right');
-      $('.overlay').show('slide, 500, right');
-    });
-  });
-  $(".close").click(function () {
-      $('.modal-mobile').hide('slide, 500, right');
-      $('.overlay').hide('slide, 500, right');
-    });
-</script>
 </html>
