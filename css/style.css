@@ -717,7 +717,7 @@ table, th, td{
     margin-left: -32px;
   }
   .visa-services li{
-    width: 166px;
+    width: 48%;
     margin-bottom: 15px;
   }
   .visa-services p {
@@ -792,5 +792,8 @@ margin-left: -30px;
 }
 .mobile-menubar li a{
 color: #000;
+}
+.wrapers li {
+  width: 48%;
 }
 }
