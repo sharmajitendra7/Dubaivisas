@@ -4,7 +4,7 @@ body {
   line-height: 18px;
   font-weight: 700px;
   background: #f4f5f7;
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 * {
   margin: 0;
@@ -425,7 +425,7 @@ a {
 }
 /* footer-end  */
 /* visatype-start */
-.visatype{
+.visatype {
   background: #fff;
   width: 100%;
   padding: 20px;
@@ -433,19 +433,19 @@ a {
   margin: 20px 0;
   box-shadow: 0 0px 12px rgb(0 0 0 / 40%);
 }
-.visatype h3{
+.visatype h3 {
   font-size: 38px;
   line-height: 40px;
   color: #d02127;
   margin-bottom: 20px;
 }
-.visatype p{
+.visatype p {
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 20px;
   border-bottom: #000 solid 2px;
 }
-.visatype h4{
+.visatype h4 {
   font-size: 20px;
   line-height: 40px;
   color: #666666;
@@ -454,36 +454,36 @@ a {
 }
 /* visatype-end */
 /* documentrequired-start */
-.documentrequired{
+.documentrequired {
   display: flex;
   margin: 20px 0;
 }
-.documentrequired img{
+.documentrequired img {
   margin-right: 60px;
 }
-.documentrequired h3{
+.documentrequired h3 {
   font-size: 28px;
   line-height: 40px;
   color: #d02127;
   margin-bottom: 20px;
 }
-.documentrequired p{
+.documentrequired p {
   font-size: 16px;
   line-height: 24px;
 }
 /* documentrequired-end */
 /* track-start */
-.track h3{
+.track h3 {
   font-size: 28px;
   line-height: 40px;
   color: #d02127;
   margin: 30px 0 10px 0;
   text-align: center;
 }
-.track p{
+.track p {
   font-size: 16px;
   line-height: 24px;
-  text-align: center; 
+  text-align: center;
   margin-bottom: 40px;
 }
 .track-bg {
@@ -499,7 +499,7 @@ a {
   justify-content: center;
   flex-direction: column;
 }
-.track-bg h5{
+.track-bg h5 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -507,28 +507,28 @@ a {
 .form-control {
   width: 300px;
 }
-.sub-btn{
+.sub-btn {
   background: #d02127;
   padding: 10px;
   border: none;
   border-radius: 5px;
   color: #fff;
 }
-.input-detail{
+.input-detail {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 /* track-end */
 /* payment-start */
-.payment h3{
+.payment h3 {
   font-size: 28px;
   line-height: 40px;
   color: #d02127;
   margin: 30px 0 30px 0;
   text-align: center;
 }
-.payment-bg{
+.payment-bg {
   background: #fff;
   width: 50%;
   padding: 20px;
@@ -538,8 +538,8 @@ a {
   margin-left: 25%;
   text-align: center;
 }
-.pay label{
-  margin: 20px 10px 20px 0 ;
+.pay label {
+  margin: 20px 10px 20px 0;
 }
 .payment-btn {
   background: #d02127;
@@ -551,7 +551,7 @@ a {
 }
 /* payment-end */
 /* contact-us-start */
-.contact-us h3{
+.contact-us h3 {
   font-size: 28px;
   line-height: 40px;
   color: #d02127;
@@ -568,13 +568,13 @@ a {
   margin-left: 25%;
   text-align: center;
 }
-.contact-us-bg h6{
+.contact-us-bg h6 {
   font-size: 22px;
   margin-bottom: 20px;
   border-bottom: #666666 solid 1px;
   padding-bottom: 20px;
 }
-.contact-us-input{
+.contact-us-input {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -603,7 +603,7 @@ a {
 }
 /* contact-us-end */
 /* fees-start */
-.fees-bg{
+.fees-bg {
   background: #fff;
   width: 100%;
   padding: 20px;
@@ -611,7 +611,7 @@ a {
   margin: 20px 0;
   box-shadow: 0 0px 12px rgb(0 0 0 / 40%);
 }
-.fees-bg h3{
+.fees-bg h3 {
   font-size: 28px;
   line-height: 40px;
   color: #d02127;
@@ -625,19 +625,25 @@ a {
   color: #fff;
   display: inline-block;
 }
-table, th, td{
+table,
+th,
+td {
   border: 1px solid #000;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
 }
 /* fees-end */
-.menuicon{
+.menuicon {
   display: none;
 }
-.modal-mobile{
+.modal-mobile {
   display: none;
 }
+.overlay-mobile {
+  display: none;
+}
+
 
 
 /* mobile-responcive */
@@ -646,19 +652,19 @@ table, th, td{
     width: 100%;
     padding: 0 15px;
   }
-  .header-top img{
+  .header-top img {
     width: 100px;
   }
   .apply-btn {
     display: none;
   }
-  .menuicon img{
+  .menuicon img {
     width: 50px;
   }
-  .menuicon{
+  .menuicon {
     display: block;
   }
-  .modal-mobile{
+  .modal-mobile {
     display: none;
     position: absolute;
     top: 0;
@@ -669,16 +675,16 @@ table, th, td{
   .overlay {
     display: block;
   }
-  .menu-bar{
+  .menu-bar {
     display: none;
   }
-  .nav-bar{
+  .nav-bar {
     padding: 0;
   }
-  .mobile-menubar li{
+  .mobile-menubar li {
     margin: 20px 0 40px 0;
   }
-  .logo2 img{
+  .logo2 img {
     width: 200px;
     margin: 10px;
   }
@@ -688,7 +694,7 @@ table, th, td{
   .slider-text h6 {
     width: 150%;
   }
-  .slider img{
+  .slider img {
     margin-bottom: 50px;
   }
   .processing-steps h3 {
@@ -696,10 +702,10 @@ table, th, td{
     width: 100%;
     margin-bottom: 30px;
   }
-  .wrapers ul{
+  .wrapers ul {
     flex-wrap: wrap;
   }
-  .wrapers li{
+  .wrapers li {
     width: 164px;
     margin-bottom: 20px;
   }
@@ -710,13 +716,13 @@ table, th, td{
     font-size: 26px;
     margin-bottom: 30px;
   }
-  .visa-services ul{
+  .visa-services ul {
     flex-wrap: wrap;
   }
-  .visa-services{
+  .visa-services {
     margin-left: -32px;
   }
-  .visa-services li{
+  .visa-services li {
     width: 48%;
     margin-bottom: 15px;
   }
@@ -724,23 +730,23 @@ table, th, td{
     font-size: 14px;
     line-height: 20px;
   }
-  .visa-services-bg{
+  .visa-services-bg {
     margin-bottom: 50px;
   }
   .contant h4 {
     font-size: 26px;
   }
-  .contact-delat{
+  .contact-delat {
     margin-bottom: 50px;
   }
-  .left-pannel h3{
+  .left-pannel h3 {
     font-size: 26px;
     margin-bottom: 1px;
   }
-  .visa-applications{
+  .visa-applications {
     flex-direction: column;
   }
-  .left-pannel p{
+  .left-pannel p {
     font-size: 14px;
     line-height: 20px;
   }
@@ -748,52 +754,66 @@ table, th, td{
     height: 350px;
     margin-left: 0px;
     width: 350px;
-}
-.documentrequired{
-  flex-direction: column-reverse;
-}
-.documentrequired img{
-  width: 342px;
-}
-.form-control {
-  width: 250px;
-}
-.payment-bg {
-  width: 100%;
-  margin-left: 0%;
-}
-.pay label {
-  margin: 20px 2px 20px 0;
-}
-.input1 {
-width: 53%;
-}
-.contact-us-bg{
-  width: 100%;
-  margin-left: 0;
-}
-.form-grup {
-  width: 306px;
-}
-table, th, td {
-  padding: 1px;
-}
-.footer-text{
-  flex-direction: column;
-}
-.applay1 h3{
-  margin-left: 0;
-}
-.applay1 a {
-margin-left: -30px;
-}
-.input2 {
-  width: 306px;
-}
-.mobile-menubar li a{
-color: #000;
-}
-.wrapers li {
-  width: 48%;
-}
+  }
+  .documentrequired {
+    flex-direction: column-reverse;
+  }
+  .documentrequired img {
+    width: 342px;
+  }
+  .form-control {
+    width: 250px;
+  }
+  .payment-bg {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .pay label {
+    margin: 20px 2px 20px 0;
+  }
+  .input1 {
+    width: 53%;
+  }
+  .contact-us-bg {
+    width: 100%;
+    margin-left: 0;
+  }
+  .form-grup {
+    width: 96%;
+  }
+  table,
+  th,
+  td {
+    padding: 1px;
+  }
+  .footer-text {
+    flex-direction: column;
+  }
+  .applay1 h3 {
+    margin-left: 0;
+  }
+  .applay1 a {
+    margin-left: -30px;
+  }
+  .input2 {
+    width: 306px;
+  }
+  .mobile-menubar li a {
+    color: #000;
+  }
+  .wrapers li {
+    width: 48%;
+  }
+  .contact-us-input {
+    flex-direction: column;
+  }
+  .overlay-mobile {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
 }

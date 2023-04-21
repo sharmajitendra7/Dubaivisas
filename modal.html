@@ -38,6 +38,9 @@
         <div>
             <a href="#"><img src="./images/tpp.png" alt="tpp"></a>
         </div>
+        <div class="menuicon">
+          <img src="./images/menuIcon.png" alt="menuIcon">
+        </div>
         <div class="apply-btn">
             <a href="./modal.html">Click Here To Apply Now</a>
         </div>
@@ -215,19 +218,64 @@
     </div>
   </footer>
   <!-- footer-end -->
-
+  <div class="overlay-mobile"></div>
+    <div class="modal-mobile">
+      <div class="close">
+        &times;
+      </div>
+      <div class="logo2">
+        <a href="./index.html"
+          ><img src="./images/dubaivisas-logo.png" alt="dubaivisaslogo"></a>
+      </div>
+      <div class="mobile-menubar">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i> HOME</a>
+          </li>
+          <li>
+            <a href="./visatype.html"
+              ><i class="fa-solid fa-camera"></i> VISA TYPES</a
+            >
+          </li>
+          <li>
+            <a href="./documentrequired.html"
+              ><i class="fa-solid fa-tags"></i> DOCUMENTS REQUIRED</a
+            >
+          </li>
+          <li>
+            <a href="./track.html"><i class="fa-solid fa-truck"></i> TRACK</a>
+          </li>
+          <li>
+            <a href="./payment.html"
+              ><i class="fa-solid fa-credit-card"></i> PAYMENT</a
+            >
+          </li>
+          <li>
+            <a href="contact.html"
+              ><i class="fa-solid fa-envelope"></i> CONTACT-US
+            </a>
+          </li>
+          <li>
+            <a href="fees.html"
+              ><i class="fa-sharp fa-solid fa-money-bill"></i> FEES</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+<!-- mobail-popup -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+    $(document).ready(function () {
+      $(".menuicon").click(function () {
+        $('.modal-mobile').show('slide, 500, right');
+        $('.overlay-mobile').show('slide, 500, right');
+      });
+    });
+    $(".close, .overlay-mobile").click(function () {
+        $('.modal-mobile').hide('slide, 500, right');
+        $('.overlay-mobile').hide('slide, 500, right');
+      });
+  </script>
 </body>
-<!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> -->
-<!-- <script type="text/javascript">
-  $(document).ready(function () {
-    $(".apply-btn").click(function () {
-      $('.popup').show();
-      $('.overlay').show();
-    });
-  });
-  $(".close, .overlay").click(function () {
-      $('.popup').hide();
-      $('.overlay').hide();
-    });
-</script> -->
 </html>

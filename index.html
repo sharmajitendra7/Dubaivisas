@@ -16,9 +16,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
@@ -271,6 +268,9 @@
       </div>
       </div>
     </footer>
+<!-- footer-end -->
+<!-- mobil-popup -->
+<div class="overlay-mobile"></div>
     <div class="modal-mobile">
       <div class="close">
         &times;
@@ -315,18 +315,18 @@
         </ul>
       </div>
     </div>
-    <!-- footer-end -->
+<!-- mobail-popup -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script>
     $(document).ready(function () {
       $(".menuicon").click(function () {
         $('.modal-mobile').show('slide, 500, right');
-        $('.overlay').show('slide, 500, right');
+        $('.overlay-mobile').show('slide, 500, right');
       });
     });
-    $(".close").click(function () {
+    $(".close, .overlay-mobile").click(function () {
         $('.modal-mobile').hide('slide, 500, right');
-        $('.overlay').hide('slide, 500, right');
+        $('.overlay-mobile').hide('slide, 500, right');
       });
   </script>
   </body>
