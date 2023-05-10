@@ -83,19 +83,19 @@ a {
 }
 .form2 label {
   margin-bottom: 30px;
-  margin-right: 140px;
+  margin-right: 142px;
 }
 .form3 label {
   margin-bottom: 30px;
-  margin-right: 82px;
+  margin-right: 79px;
 }
 .form4 label {
   margin-bottom: 30px;
-  margin-right: 91px;
+  margin-right: 92px;
 }
 .form5 label {
   margin-bottom: 30px;
-  margin-right: 91px;
+  margin-right: 92px;
 }
 .form6 label {
   margin-bottom: 30px;
@@ -103,11 +103,11 @@ a {
 }
 .form7 label {
   margin-bottom: 30px;
-  margin-right: 111px;
+  margin-right: 109px;
 }
 .form8 label {
   margin-bottom: 30px;
-  margin-right: 47px;
+  margin-right: 41px;
 }
 .form9 label {
   margin-bottom: 30px;
@@ -115,7 +115,7 @@ a {
 }
 .form10 label {
   margin-bottom: 30px;
-  margin-right: 46px;
+  margin-right: 43px;
 }
 .close {
   position: absolute;
@@ -143,6 +143,8 @@ a {
   padding: 16px 20px;
   border-radius: 8px;
   color: #fff;
+  cursor: pointer;
+  
 }
 /* header-end  */
 /* nev-bar-start */
@@ -231,18 +233,32 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.wrapers li {
-  background: #666666;
-  width: 200px;
+.wrapers1 {
+  background: #fff;
+  width: 260px;
   height: 150px;
-  padding: 10px;
+  padding: 25px;
   margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  transition: all 0.5s ease;
 }
-.wrapers {
+.wrapers1:hover{
+  margin-top: -20px;
+  
+}
+.wrapers1 {
   text-align: center;
 }
-.wrapers h2 {
+.wrapers1 img{
+  width: 45px;
+}
+.wrapers1 h2 {
   font-size: 20px;
+  margin-top: 20px;
+}
+.wrapers li a{
+  color: #000;
 }
 /* stap-end */
 /* Visa Services-start */
@@ -276,7 +292,7 @@ a {
 /* Visa Services-end */
 /* bacground-images-start */
 .dubai-images {
-  background-image: url(../images/home-pic-bg.jpg);
+  background-image: url(../images/home-pic-bg.webp);
   background-repeat: no-repeat;
   padding: 90px 0;
   color: #fff;
@@ -328,22 +344,98 @@ a {
   margin-bottom: 20px;
 }
 .left-pannel p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
-  /* width: 50%; */
+}
+.left-pannel a{
+  color: #fa060e;
+  font-weight: 600;
 }
 .left-pannel span {
   font-weight: 700;
+  color: #616161;
 }
 .left-pannel hr {
   width: 30%;
   border: #fa060e solid 1px;
 }
 .right-pannel img {
-  height: 450px;
-  margin-left: 50px;
+  height: 700px;
+  margin-left: 20px;
 }
 /* Visa-Applications-end */
+/* Visa-Applications-frist-start */
+.dubaitrip-min1 img{
+  width: 1255px;
+  margin-bottom: 40px;
+}
+.dubaitrip-min p{
+  font-size: 14px;
+  line-height: 24px;
+}
+.dubaitrip-min a{
+  color: #fa060e;
+  font-weight: 600;
+}
+.dubaitrip-min span{
+  font-weight: 700;
+  color: #616161;
+}
+.documents-required {
+  background: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.documents-required h3{
+  font-size: 38px;
+  line-height: 40px;
+  color: #d02127;
+  margin-bottom: 20px;
+}
+.documents-required-contant{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.documents-required-contant img{
+  width: 110px;
+margin-bottom: 15px;
+}
+.documents-required-contant h6{
+  font-size: 20px;
+  width: 53%;
+}
+/* Visa-Applications-frist-end */
+/* faq-start */
+.faq h3{
+  font-size: 38px;
+  line-height: 40px;
+  color: #d02127;
+  margin-bottom: 20px;
+}
+.faq hr{
+  width: 30%;
+  border: #fa060e solid 1px;
+}
+.faq h5{
+font-size: 18px;
+color: #616161;
+font-weight: 600;
+}
+.faq p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.faq a{
+  color: #fa060e;
+  font-weight: 600;
+}
+.faq span{
+  font-weight: 700;
+  color: #616161;
+}
+/* faq-end */
 /* footer-start */
 .footer-images {
   background-image: url(../images/footer.jpg);
@@ -705,12 +797,12 @@ td {
   .wrapers ul {
     flex-wrap: wrap;
   }
-  .wrapers li {
-    width: 164px;
+  .wrapers1 {
+    width: 160px;
     margin-bottom: 20px;
   }
-  .wrapers {
-    margin-left: -32px;
+  .wrapers1 {
+    margin-left: -20px;
   }
   .visa-services-bg h3 {
     font-size: 26px;
@@ -751,15 +843,39 @@ td {
     line-height: 20px;
   }
   .right-pannel img {
-    height: 350px;
     margin-left: 0px;
     width: 350px;
   }
+  .dubaitrip-min1 img{
+    display: none;
+  }
+  .documents-required-contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.documents-required-contant img {
+  width: 120px;
+  margin-bottom: 15px;
+}
+.documents-required-contant h6 {
+  font-size: 9px;
+  width: 99%;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
   .documentrequired {
     flex-direction: column-reverse;
   }
   .documentrequired img {
     width: 342px;
+  }
+  .documents-required h3 {
+    font-size: 26px;
+  }
+  .faq h3{
+    font-size: 26px;
   }
   .form-control {
     width: 250px;
@@ -787,7 +903,7 @@ td {
     padding: 1px;
   }
   .footer-text {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .applay1 h3 {
     margin-left: 0;
